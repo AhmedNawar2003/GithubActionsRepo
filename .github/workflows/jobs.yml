@@ -8,7 +8,7 @@ jobs:
       - run: |
             npm install
             npm run build
-        working-directory: ./temp
+        working-directory: ./src
         shell: bash
         #pwsh, cmd, powershell, python   
 
